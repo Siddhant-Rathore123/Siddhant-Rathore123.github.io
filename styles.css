@@ -318,3 +318,188 @@ footer span{color:var(--accent)}
   .certs-grid{grid-template-columns:1fr}
   .nav-links,.nav-cta,.nav-resume,.nav-actions{display:none}
 }
+
+/* ═══════════════════════════════════════════════
+   MOBILE OPTIMIZATION
+   ═══════════════════════════════════════════════ */
+
+@media (max-width: 768px) {
+  /* ── Font sizes ── */
+  h1.hn {
+    font-size: 2.2rem !important;
+  }
+  h2.hr {
+    font-size: 1.1rem !important;
+  }
+  .s-title {
+    font-size: 1.8rem !important;
+  }
+  .hero-desc {
+    font-size: 0.92rem !important;
+  }
+  .stat-n {
+    font-size: 1.8rem !important;
+  }
+  .lc-big {
+    font-size: 2.8rem !important;
+  }
+  .lc-mn {
+    font-size: 1.8rem !important;
+  }
+  
+  /* ── Spacing ── */
+  section {
+    padding: 3rem 1.2rem !important;
+  }
+  #hero {
+    padding-top: 100px !important;
+    padding-bottom: 30px !important;
+  }
+  
+  /* ── Hero stats ── */
+  .hero-stats {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+  .hero-stats > div {
+    padding: 0 !important;
+    border-left: none !important;
+  }
+  .hero-stats > div + div {
+    padding: 0 !important;
+    border-left: none !important;
+    border-top: 1px solid var(--border);
+    padding-top: 1rem !important;
+  }
+  
+  /* ── Layouts ── */
+  .about-wrap {
+    gap: 2rem !important;
+  }
+  .skills-container {
+    grid-template-columns: 1fr !important;
+  }
+  .certs-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .explore-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .edu-cards {
+    grid-template-columns: 1fr !important;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .projects-grid {
+    gap: 1.2rem !important;
+  }
+  .lc-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .lc-metrics {
+    grid-template-columns: 1fr !important;
+    gap: 0.8rem !important;
+  }
+  .lc-total {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.3rem !important;
+  }
+  
+  /* ── Cards ── */
+  .about-card {
+    border-radius: 12px !important;
+  }
+  .proj-body {
+    padding: 1.2rem !important;
+  }
+  .skill-group {
+    padding: 1rem !important;
+  }
+  .contact-card {
+    padding: 1.5rem !important;
+  }
+  .edu-card {
+    padding: 1.5rem !important;
+  }
+  .cert-card {
+    padding: 1rem !important;
+  }
+  .explore-card {
+    padding: 1.2rem !important;
+  }
+  
+  /* ── Buttons ── */
+  .hero-btns {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  .btn-p, .btn-s {
+    text-align: center !important;
+    justify-content: center !important;
+    padding: 0.8rem !important;
+  }
+  .nav-actions {
+    display: none !important;
+  }
+  .c-link {
+    padding: 0.6rem 0.8rem !important;
+    font-size: 0.8rem !important;
+  }
+  
+  /* ── Banner ── */
+  #top-banner {
+    padding: 0.4rem 1rem !important;
+    flex-wrap: wrap !important;
+    gap: 0.4rem !important;
+  }
+  .banner-text {
+    font-size: 0.65rem !important;
+  }
+  .banner-badge {
+    font-size: 0.6rem !important;
+    padding: 0.15rem 0.5rem !important;
+  }
+  .banner-close {
+    font-size: 0.8rem !important;
+  }
+  
+  /* ── Terminal hidden ── */
+  .hero-terminal {
+    display: none !important;
+  }
+  
+  /* ── Tags ── */
+  .tag-list {
+    gap: 0.3rem !important;
+  }
+  .tag {
+    font-size: 0.65rem !important;
+    padding: 0.2rem 0.5rem !important;
+  }
+  
+  /* ── Experience ── */
+  .exp-layout {
+    gap: 1.5rem !important;
+  }
+  .exp-panel {
+    padding: 1rem 0 0 !important;
+  }
+}
+
+/* ── Extra small devices (phones under 400px) ── */
+@media (max-width: 400px) {
+  h1.hn {
+    font-size: 1.8rem !important;
+  }
+  .s-title {
+    font-size: 1.5rem !important;
+  }
+  section {
+    padding: 2rem 0.8rem !important;
+  }
+  #hero {
+    padding-top: 90px !important;
+  }
+}
